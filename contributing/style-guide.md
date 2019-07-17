@@ -31,7 +31,7 @@
 
 - Spell out numbers below 10 (e.g., one, two, three).
 - Use numerals for numbers above 10, except when they begin a sentence.
-- Use figures with million, billion, and trillion in all except casual uses (e.g., I'd like to make a billion dollars; the nation has 1 million citizens).
+- Use figures with milkion, billion, and trillion in all except casual uses (e.g., I'd like to make a billion dollars; the nation has 1 million citizens).
 
 ### Currency Amounts
 
