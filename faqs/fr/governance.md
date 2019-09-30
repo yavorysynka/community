@@ -86,77 +86,79 @@ Le portail de vote utilise un [contrat de vote](https://github.com/makerdao/vote
 
 La mise en place d'un contrat mandataire pour le vote nécessite une seule interaction avec le système tant que le détenteur de MKR utilise les mêmes portefeuilles chauds et froids. En cas où le détenteur souhaite changer l'un des deux portefeuilles, le lien entre ceux-ci peut être brisé et un nouveau contrat de vote par procuration peut être mis en place.
 
-## À quoi sert le contrat mandataire de vote?
-
 Le contrat mandataire de vote permet aux détenteurs de MKR de participer aux sondages de gouvernance et aux votes exécutifs facilement à l'aide de leur portefeuille chaud tout en bénéficiant de la sécurité d'un portefeuille froid. Le contrat mandataire garantit que les jetons du détenteur peuvent seulement être retirés dans le portefeuille hors ligne.
 
-## Qu'est-ce qu'un contrat mandataire?
+## À quoi sert le contrat mandataire de vote?
 
 Un contrat mandataire est un contrat intelligent qui permet d'approuver un groupe de transactions de manière à ce qu'elles soient approuvées ou rejetées en bloc. Ceci veut dire qu'une seule signature est requise pour qu'une opération à plusieurs étapes s'exécute.
 
-## Pourquoi est-ce que j'ai besoin d'un contrat mandataire?
+## Qu'est-ce qu'un contrat mandataire?
 
 Le contrat mandataire permet de sécuriser les jetons du détenteur de MKR lorsqu'il vote à partir d'un portefeuille froid à l'aide du portefeuille chaud. Il permet aussi de participer aux sondages de gouvernance et aux votes exécutifs sans devoir connaître la mécanique sous-jacente.
 
-## Quelles sont les permissions accordées?
+## Pourquoi est-ce que j'ai besoin d'un contrat mandataire?
 
 Les permissions accordées confirment que vous voulez bel et bien verrouiller vos jetons MKR dans le système de vote et que vous voterez à partir de votre portefeuille chaud. Le portefeuille chaud peut seulement voter ou transférer vos jetons vers le portefeuille froid.
 
-## Est-ce que chaque vote me coûte du gaz?
+## Quelles sont les permissions accordées?
 
 Oui. Comme voter est un procédé natif à la chaîne, il y a des coûts en gaz associés à transaction impliquant le déploiement du contrat de vote ainsi que pour chaque vote.
 
-## Quel est le coût total en gaz? Est-ce qu'il provient du portefeuille chaud ou froid?
+## Est-ce que chaque vote me coûte du gaz?
 
 Le coût total est d'environ 1 million de gaz pour 4 transactions. Le coût étant réparti entre le portefeuille chaud et le portefeuille froid, vous devez vous assurer que chacun contient suffisamment de jetons ETH. Vous pouvez visiter [https://ethgasstation.info/](https://ethgasstation.info/) pour estimer le prix en gaz.
 
-## Combien de transactions est-ce que je dois signer?
+## Quel est le coût total en gaz? Est-ce qu'il provient du portefeuille chaud ou froid?
 
 Quatre transactions distinctes sont requises pour déployer le contrat de vote.
+
+## Combien de transactions est-ce que je dois signer?
+
+Vous êtes maintenant en mesure de participer aux sondages de gouvernance et aux votes exécutifs.
 
 1. **Instaurer le lien**: La première étape est de spécifier quel portefeuille sera votre portefeuille chaud. Cette transaction s'appelle "Initiate Link" et doit provenir de votre portefeuille froid. Le but de cette transaction est de prouver que vous êtes propriétaire du portefeuille froid et de désigner un portefeuille chaud.
 1. **Approuver le lien**: La prochaine étape est de prouver que vous êtes propriétaire du portefeuille chaud et de créer le lien entre vos deux portefeuilles avec la transaction "Approve Link". Un contrat de vote personnalisé est créé et sera l'intermédiaire pour chacun de vos votes.
 1. **Approuver le transfert de jetons MKR**: Une fois le lien créé entre vos portefeuilles, vous devez approuver le transfert de vos jetons MKR vers le contrat de vote.
 1. **Verrouiller les jetons MKR**: La dernière étape est le transfert de vos jetons MKR dans le contrat du système de vote et le calcul de votre poids de vote. Vous pouvez répéter cette étape pour ajouter des jetons MKR à votre contrat de vote.
 
-Vous êtes maintenant en mesure de participer aux sondages de gouvernance et aux votes exécutifs.
+Le lien sert à verrouiller vos jetons MKR dans le contrat du système de vote et fait en sorte que vous n'ayez pas à connecter votre portefeuille froid pour voter. Le vote se fait avec le portefeuille chaud et celui-ci peut seulement voter ou transférer vos jetons MKR dans votre portefeuille froid. Il est impossible de transférer vos jetons MKR dans une adresse autre que celle de votre portefeuille froid.
 
 ## À quoi sert le lien entre portefeuille chaud et portefeuille froid?
 
-Le lien sert à verrouiller vos jetons MKR dans le contrat du système de vote et fait en sorte que vous n'ayez pas à connecter votre portefeuille froid pour voter. Le vote se fait avec le portefeuille chaud et celui-ci peut seulement voter ou transférer vos jetons MKR dans votre portefeuille froid. Il est impossible de transférer vos jetons MKR dans une adresse autre que celle de votre portefeuille froid.
+Vous gardez le plein contrôle de vos jetons MKR comme ils ne sortaient jamais du contrat du mandataire. Vous seul pouvez retirer vos jetons MKR du contrat et la seule destination valide est celle de votre portefeuille froid.
 
 ## Qui contrôle mes jetons MKR lorsqu'ils sont verrouillés?
 
-Vous gardez le plein contrôle de vos jetons MKR comme ils ne sortaient jamais du contrat du mandataire. Vous seul pouvez retirer vos jetons MKR du contrat et la seule destination valide est celle de votre portefeuille froid.
+Si vous connectez votre portefeuille chaud au [_Portail de Gouvernance_](https://vote.makerdao.com), vous pourrez voir votre nombre total de jetons MKR verrouillés dans la section 'In voting contract'.
 
 ## Comment est-ce que je peux m'assurer que mes jetons MKR sont verrouillés?
 
-Si vous connectez votre portefeuille chaud au [_Portail de Gouvernance_](https://vote.makerdao.com), vous pourrez voir votre nombre total de jetons MKR verrouillés dans la section 'In voting contract'.
+Pour récupérer vos jetons MKR verrouillés, vous devez vous rendre au [_Portail de Gouvernance_](https://vote.makerdao.com), y connecter votre portefeuille chaud et cliquer sur 'Voting Contract'. Dans le coin inférieur droit, cliquez sur le lien 'Withdraw from voting contract' et sélectionnez le nombre de jetons MKR que vous voulez récupérer et confirmez la transaction. Vous pouvez seulement transférer ces jetons MKR dans votre portefeuille froid.
 
 ## Comment est-ce que je peux récupérer mes jetons MKR?
 
-Pour récupérer vos jetons MKR verrouillés, vous devez vous rendre au [_Portail de Gouvernance_](https://vote.makerdao.com), y connecter votre portefeuille chaud et cliquer sur 'Voting Contract'. Dans le coin inférieur droit, cliquez sur le lien 'Withdraw from voting contract' et sélectionnez le nombre de jetons MKR que vous voulez récupérer et confirmez la transaction. Vous pouvez seulement transférer ces jetons MKR dans votre portefeuille froid.
+Le retrait de vos jetons MKR de la plus récente proposition élimine votre vote et laisse vos jetons en mode non attribué. Cela veut dire que la nouvelle proposition aura besoin de moins de jetons MKR pour être acceptée puisqu'un vote passe lorsque son poids de vote en MKR dépasse celui de la proposition précédente. Aussi, retirer vos jetons MKR du contrat de vote implique une transaction supplémentaire si vous désirez un jour voter à nouveau.
 
 ## Qu'est-ce qui advient de mes votes précédents si je retire mes jetons MKR?
 
-Le retrait de vos jetons MKR de la plus récente proposition élimine votre vote et laisse vos jetons en mode non attribué. Cela veut dire que la nouvelle proposition aura besoin de moins de jetons MKR pour être acceptée puisqu'un vote passe lorsque son poids de vote en MKR dépasse celui de la proposition précédente. Aussi, retirer vos jetons MKR du contrat de vote implique une transaction supplémentaire si vous désirez un jour voter à nouveau.
+Non, les détenteurs de MKR actif dans le processus de gouvernance sont encouragés à laisser leurs jetons dans le portail de vote pour qu'ils soient comptés dans le vote par approbation continue.
 
 ## Est-ce que je dois déverrouiller mes jetons MKR après avoir voté?
 
-Non, les détenteurs de MKR actif dans le processus de gouvernance sont encouragés à laisser leurs jetons dans le portail de vote pour qu'ils soient comptés dans le vote par approbation continue.
+Non, vos jetons MKR sont immobiles tant et aussi longtemps qu'ils demeurent verrouillés dans le système de vote. Il faut retirer vos jetons MKR du système de vote avant de pouvoir les transférer vers une autre adresse.
 
 ## Est-ce que je peux transférer mes jetons MKR à partir de mon portefeuille froid pendant qu'ils sont verrouillés?
 
-Non, vos jetons MKR sont immobiles tant et aussi longtemps qu'ils demeurent verrouillés dans le système de vote. Il faut retirer vos jetons MKR du système de vote avant de pouvoir les transférer vers une autre adresse.
+Il est possible de renflouer votre contrat de vote sur le [_Portail de Gouvernance_](https://vote.makerdao.com). Cliquez sur 'Voting Contract' puis sur 'Top-up Voting Contract'.
 
 ## Qu'est-ce qui se passe si j'envoie plus de jetons MKR vers mon portefeuille froid avec l'avoir lié?
 
-Il est possible de renflouer votre contrat de vote sur le [_Portail de Gouvernance_](https://vote.makerdao.com). Cliquez sur 'Voting Contract' puis sur 'Top-up Voting Contract'.
+Oui, il y a une option prévue à cet effet. Dirigez-vous vers le [_Portail de Gouvernance_](https://vote.makerdao.com), cliquez sur 'Voting Contract' puis sur 'Break Wallet Link'. Généralement, il n'est pas nécessaire de briser le lien entre vos portefeuilles à moins que ce ne soit pour un remplacement d'un de ceux-ci. Retirer vos jetons MKR du contrat de vote vous laisse les échanger librement sans briser le lien.
 
 ## Est-ce que je peux briser le lien entre mon portefeuille chaud et mon portefeuille froid?
 
-Oui, il y a une option prévue à cet effet. Dirigez-vous vers le [_Portail de Gouvernance_](https://vote.makerdao.com), cliquez sur 'Voting Contract' puis sur 'Break Wallet Link'. Généralement, il n'est pas nécessaire de briser le lien entre vos portefeuilles à moins que ce ne soit pour un remplacement d'un de ceux-ci. Retirer vos jetons MKR du contrat de vote vous laisse les échanger librement sans briser le lien.
+Non, actuellement, un contrat de vote ne peut être financé que par une seule adresse.
 
 ## Est-ce qu'il est possible de combiner plusieurs adresses dans le même contrat de vote?
 
-Non, actuellement, un contrat de vote ne peut être financé que par une seule adresse.
+No, currently a voting contract can only be funded by one address.
