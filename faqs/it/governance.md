@@ -1,162 +1,164 @@
-# L'amministrazione
+# Governance
 
-## Cos'è l'amministrazione \(governance\) di MakerDAO?
+## What is Governance?
 
-L'amministrazione \(governance\) è il processo attraverso il quale un gruppo di soci o di azionisti prende decisioni riguardo specifiche scelte nella loro organizzazione o azienda. Molte organizzazioni decidono di velocizzare questo processo nominando delle figure chiave, quali amministratori e direttori, il cui ruolo è quello di prendere delle decisioni. Nel contesto di MakerDAO, l'amministrazione si svolge mediante un sistema di voto attraverso il quale ogni possessore di token MKR può esprimersi circa le scelte sui cambiamenti dei parametri di rischio \(risk parameters\) del sistema di credito Dai.
+Governance is a process through which a group of stakeholders come to a decision on a particular change within their system or organization. Many centralized entities have expedited the governance process through the nomination of critical decision makers like board members and executives. In the context of MakerDAO, it is done through a voting system where anyone who owns MKR can vote on changes to the Risk Parameters within the Dai Credit System.
 
-## Come fanno i possessori di token MKR ad amministrare il sistema Dai?
+## How do MKR holders manage the Dai Credit System?
 
-Affinché il sistema di credito Dai abbia successo, i possessori di token MKR \(stakeholders\) devono collaborare e votare sui parametri di una serie di fattori di rischio. Ad esempio, dovranno votare su quali tipi di criptovalute possono essere accettate come pegno di garanzia \(collateral\), sul limite massimo di credito erogabile e sul tasso d'interesse. Tutto questo avviene attraverso un sistema di voto sulla blockchain che fa parte integrante del sistema Dai. Il team di sviluppo di MakerDAO ha creato [Governance Dashboard](http://vote.makerdao.com/), una comoda ed intuitiva interfaccia che permette ai possessori di token MKR di esprimersi tramite il voto. L'uso dell'interfaccia non è comunque obbligatorio. Infatti I possessori di token MKR hanno anche la possibilità di interagire direttamente con gli smart contract del sistema Dai.
+For the Dai Credit System to be successful, the stakeholders in the system need to collaborate and vote on a variety of Risk Parameters. Some examples include which assets can be used as collateral, how much Dai can be issued, and the Stablity Fee a CDP holder is charged. This is done through the on-chain voting mechanism built directly into the system. The Maker team created the [Governance Dashboard](http://vote.makerdao.com/) for stakeholders to have a friendly user interface to use for voting. Stakeholders still have the option of voting directly by interacting with the smart contacts that make up the Dai Credit System.
 
-Una delle prime votazioni a cui i possessori di token MKR hanno partecipato è stata circa un accordo per [Gradual Decentralization \(decentralizzazione progressiva\)](https://medium.com/makerdao/foundation-proposal-v2-f10d8ee5fe8c), che rappresenta un aspetto fondamentale verso il quale la piattaforma MakerDAO progredirà nel futuro. Al momento, il team di sviluppo Maker ha assunto la responsabilità di mettere in moto il sistema prendendo decisioni importanti e votando. Con il passare del tempo, il team di sviluppo giocherà un ruolo sempre minore e passerà la responsabilità di governo attraverso il voto ai possessori di token MKR. La comunità di MakerDAO crescerà nel tempo e conseguentemente il governo del sistema sarà sempre più decentralizzato.
+One of the first votes that MKR token holders participated in was an agreement for [Gradual Decentralization](https://medium.com/makerdao/foundation-proposal-v2-f10d8ee5fe8c), which is a core part of how the MakerDAO platform is meant to evolve. Currently, the Maker team takes responsibility for bootstrapping the system by providing active input and effort into governance. As time goes on, the Maker team will play a less active role in this function and will equip MKR token holders to govern the system independently. As the community around MakerDAO grows, the governance of the system will evolve into a more decentralized state.
 
-## Come posso votare?
+## How can I vote?
 
-Per votare un possessore di token MKR deve "bloccare" \(lock up\) i suoi token e trasferirli nel sistema di voto. Una volta fatto ciò, sarà possibile votare sulle varie proposte. Il peso del proprio voto è direttamente proporzionale al numero di token MKR bloccati su [Governance Dashboard](http://vote.makerdao.com/).
+To vote, MKR owners must "lock up" their tokens by transferring them to the voting system. Once moved, you can then vote on different proposals with the weight of the MKR that you locked up on the [Governance Dashboard](http://vote.makerdao.com/).
 
-## Come faccio a sapere che il mio voto è stato correttamente registrato?
+## How do I know my vote was placed?
 
-Il tuo voto è visualizzato su [Governance Dashboard](http://vote.makerdao.com/).
+Your current vote is reflected in the [Governance Dashboard](http://vote.makerdao.com/).
 
-## Se una votazione è già iniziata, posso ancora prendervi parte?
+## If the vote has already started can I still participate?
 
-Sì, puoi votare in ogni momento. Tutto ciò che devi fare è bloccare i tuoi token MKR. A quel punto sarai in grado di votare.
+Yes, you can join the vote at any time. All you need to do is set up your voting contract and lock in your MKR, and you're ready to vote.
 
-## Posso modificare il mio voto se cambio idea?
+## Can I change my vote once I have placed it?
 
-Sì. Se hai già votato, semplicemente scegli un'altra opzione nel portale di voto. I tuoi token MKR verranno automaticamente allocati sulla nuova proposta da te scelta. Puoi anche scegliere di annullare il voto fatto in precedenza e di astenerti dall'effettuare una scelta.
+Yes. If you have already voted, you can pick a different option in the voting portal. Your MKR will automatically be withdrawn and placed in the new proposal you selected. You may also choose to remove your vote from any proposal without necessarily voting for a new one.
 
-## Come viene calcolato il voto?
+## How is the voting calculated?
 
-Il peso del voto è calcolato in base al numero di token MKR bloccati per effettuarlo. Per esempio, se 50 persone hanno un totale di 600 MKR e votano per la proposta A, e 100 altre persone hanno un totale di 400 MKR e votano per la proposta B, la proposta A risulterà vincente con il 60% dei voti.
+Voting is weighted by the amount of MKR that votes for a proposal. 1 MKR is equal to 1 vote. For example, if 50 stakeholders hold a total of 600 MKR and vote for proposal A, and 100 stakeholders hold a total of 400 MKR and vote for proposal B, then proposal A would win with 60% of the vote.
 
-## Ci sono vari tipi di voto?
+## Is there more than one type of vote?
 
-Sì, ci sono due tipi di voto nel sistema: sondaggi \(governance polls\) e votazioni esecutive \(executive votes\).
+There are two types of votes in the Maker Governance System, Governance Polls, and Executive Votes.
 
-I sondaggi sono utilizzati per comprendere a grandi linee le opinioni su questioni importanti e per sondare il sentimento generale dei possessori di token MKR. Questi sondaggi determinano il modo in cui la comunità deciderà di governarsi.
+Governance Polls are used to establish soft consensus on important matters and to gauge sentiment on potential Executive Vote proposals. These polls determine how the community moves forward with overall governance.
 
-I voti esecutivi invece 'eseguono' modifiche al sistema: ad esempio modificando i parametri di rischio o la lista delle criptovalute accettate come pegno \(collateral\). Puoi pensare ai sondaggi come a sistemi per "decidere su cosa votare" e alle votazioni esecutive come a sistemi per decidere effettivamente che cambiamenti effettuare.
+Executive Votes "execute" changes to the system in the form of adding or removing collateral types and setting associated Risk Parameters. You can think of Governance Polls as signal voting, while Executive Votes are hard changes enacted into the Dai Credit System.
 
-## Su che cosa si vota?
+## What do people vote on?
 
-Attraverso i sondaggi, i possessori di token MKR possono esprimere la loro opinione e le loro preferenze su praticamente qualsiasi argomento. Il primo sondaggio effettuato è stato sulla [Foundation Proposal](https://medium.com/makerdao/foundation-proposal-v2-f10d8ee5fe8c). In questo sondaggio, i possessori di MKR si sono espressi sulla definizione dei cinque principi fondamentali sui quali si basa il sistema MakerDAO.
+Through Governance Polling, MKR holders will be able to seek soft consensus on nearly anything. The first example of this was the [Foundation Proposal](https://medium.com/makerdao/foundation-proposal-v2-f10d8ee5fe8c) which established the five core principles underpinning MakerDAO.
 
-Attraverso i voti esecutivi, i possessori di token MKR possono votare direttamente modifiche al sistema di credito Dai. Ad esempio, possono decidere di aggiungere una criptovaluta tra quelle accettate come pegno di garanzia \(collateral\) e di impostare i corrispondenti parametri di rischio. Questi parametri di rischio includono il rapporto di liquidazione \(liquidation ratio\), il massimo credito erogabile \(debt ceiling\), la penalità di liquidazione \(liquidation penalty\) e il tasso di interesse \(stability fee\). I parametri di rischio sono impostati separatamente per ogni tipo di collateral e vengono proposti tenendo in considerazione le valutazioni espresse da vari gruppi di esperti che si occupano di studiare i fattori di rischio \(risk teams\).
+Through the Executive Voting process, MKR holders vote directly on changes to the Dai Credit System. Examples include adding new collateral types and setting their associated Risk Parameters. These parameters include the Liquidation Ratio, Debt Ceiling, Liquidation Penalty, and Stability Fee. Risk Parameters are independently set for each collateral type and are recommended based on the assessments done by various Risk Teams. MKR token holders will take these risk assessments into account when voting for the changes.
 
-I possessori di token MKR votano anche sulle spese operative finanziate con una parte degli introiti provenienti dai tassi di interesse \(stability fee\) applicati su ogni tipo di collateral. Ad esempio, in futuro, potranno impostare il [Dai Savings Rate](https://medium.com/makerdao/dai-reward-rate-earn-a-reward-from-holding-dai-10a07f52f3cf) e potranno decidere di investire parte degli introiti in altri servizi necessari al sistema, quali: Oracle Providers, programmatori, risk teams, etc.
+MKR token holders also vote on operational spending for the system, which is funded by a portion of the system-wide Stability Fees. Meaning, in the future, they will be able to set a [Dai Savings Rate](https://medium.com/makerdao/dai-reward-rate-earn-a-reward-from-holding-dai-10a07f52f3cf), as well as choose to spend part of the Stability Fees on necessary service providers such as Oracle Providers, Developers, Risk Teams, etc.
 
-## La fondazione \(Maker Foundation\) può votare?
+## Does the Foundation ever vote?
 
-No. Le riserve di token MKR gestite della fondazione \(Maker Foundation\) servono unicamente a garantire il finanziamento delle operazioni dell'organizzazione stessa, e non vengono usati per votare.
+No. The reserves held by the organization are for the continued operation of the Foundation itself, they are not used to vote.
 
-## Quando avvengono i sondaggi \(Governance Polls\)?
+## When do Governance Polls happen?
 
-Chiunque, in qualsiasi momento, può proporre un argomento sul quale effettuare un sondaggio.
+A proposal outlining a Governance Poll can be put up at any time.
 
-## Per quanti giorni si può votare per un sondaggio?
+## How long is the voting period of a Governance Poll?
 
-Il periodo di voto per un sondaggio è normalmente di due o tre giorni, ma altre durate sono possibili se la comunità che si occupa del governo di MakerDAO lo richiede. Sei invitato ad esprimere e condividere le tue idee sui canali di discussione disponibili: [Official Communication Channels](https://github.com/makerdao/awesome-makerdao/blob/master/README.md#official-channels).
+The length of the voting period typically ranges from two to three days but this is subject to change due to the community's active discussions surrounding governance. Feel free to contribute your thoughts on any of our [official communication channels](https://github.com/makerdao/awesome-makerdao/blob/master/README.md#official-channels).
 
-## Quando avvengono le votazioni esecutive?
+## When do Executive Votes happen?
 
-Le votazioni esecutive possono avvenire in ogni momento. Il risultato di una votazione esecutiva può modificare lo stato dei parametri del sistema Dai e utilizza un sistema di "approvazione continua" \(Continuous Approval Voting System\).
+An Executive Vote can occur at any time. Executive Votes change the state of the Dai Credit System and utilize a "Continuous Approval Voting" process.
 
-## Che cosa è il sistema di "approvazione continua" \(Continuous Approval Voting System\)?
+## What is Continuous Approval Voting?
 
-I possessori di token MKR devono mantenere in salute il sistema Dai e la stabilità del valore del Dai e, allo stesso tempo, difendere il sistema da proposte di voto che sembrano contrastanti con gli obiettivi generali del buon governo del sistema.
+MKR token holders are tasked with maintaining the health of the system and the stability of the peg while defending against any proposals that seem antithetical to the overall governance objective.
 
-Se una nuova proposta avanzata risulta utile e sensata, e i possessori di token MKR ne riconoscono il valore, allora la maggioranza dei votanti dovrebbe muovere il proprio voto su questa nuova proposta e implementarla aggiornando lo stato del sistema Dai.
+If a proposal is introduced that is beneficial, and the MKR token holders recognize this value, then the majority of tokens should shift to this new proposal and implement it as the new state of the system.
 
-In questo modello di voto, la fluidità nell'assegnamento dei voti permette di controllare sempre lo status quo del sistema e di spostare spesso i propri voti su nuove e interessanti proposte. È anche importante osservare che, per annullare un cambiamento effettuato in precedenza, è necessario passare per una nuova proposta e un nuovo voto.
+In this model, the continuity of staked votes challenges and reinforces the status quo of the system through movements of the majority of votes between desired new proposals and the most recent successful proposal. It's also important to note that to revert a change in the system an entirely new proposal must be put forth. It is impossible to reactivate an old proposal.
 
-## Perché questo sistema di voto continuo è necessario?
+## Why is the Continuous Approval Voting system necessary?
 
-Il voto esecutivo determina lo stato corrente del sistema. Siccome lo stato del sistema è continuamente attivo è necessario avere un sistema di amministrazione, e di voto, continuo. In qualsiasi momento una nuova proposta interessante e in competizione con lo status quo può essere avanzata. Se i possessori di token MKR non sono d'accordo con la proposta, essi devono esprimere il proprio voto sul mantenimento dello status quo, manifestando in maniera esplicita il desiderio di non veder realizzati i cambiamenti proposti.
+The Executive Vote represents the current state of the system. As the state of the system is continuously active, it requires continuous governance. At any time a competing proposal to the system could be introduced. If MKR token holders do not agree with the new proposal, then they should cast their votes for the current state of the system (or leave it there if they voted for current state before), implying that they do not want to see anything changed.
 
-L'importanza della continuità del sistema di governo è talmente fondamentale che ogni possessore di token MKR può avanzare una nuova proposta in qualsiasi momento. Quindi il sistema di governo deve essere costantemente monitorato e vigilato e questo richiede un sistema di amministrazione adeguato. Il voto continuo risolve questo problema.
+The continuity of the system is emphasized in the fact that a new proposal can be submitted at any time by any MKR token holder. Therefore, the system needs to be continuously monitored and governed, and thus requires a voting construct that reflects this need. In the MakerDAO system, the Continuous Approval Voting system solves this problem.
 
-## Per quanti giorni si può votare ad una votazione esecutiva?
+## How long is the voting period of an Executive Vote?
 
-Il periodo di voto per una votazione esecutiva è infinito, nel senso che una qualsiasi proposta esiste nel sistema per un tempo indeterminato e senza scadenza. Se una proposta non riceve molti voti all'inizio può benissimo riceverne molti più tardi se le motivazioni di tale proposta guadagnano in popolarità tra i possessori di token MKR. Questo aspetto fa parte integrante del sistema di voto continuo di MakerDAO.
+The voting period for an Executive Vote is infinite, meaning, a proposal can exist in the system for any amount of time. If it does not garner enough votes at first, it can do so later if the proposal gains popularity. This is a part of the design of Continuous Approval Voting.
 
-## Come funziona la interfaccia di voto \(Voting Dashboard\)
+## How does the Voting Dashboard work?
 
-L'interfaccia \(dashboard\) utilizza uno speciale proxy contract detto [voting contract](https://github.com/makerdao/vote-proxy) il quale blocca i token MKR in possesso di colui che vuole votare. Il voto è controllato attraverso l'utilizzo di due tipi di wallet \(hot e cold\) per garantire la sicurezza dei token MKR bloccati.
+The dashboard utilizes a special [Voting Contract](https://github.com/makerdao/vote-proxy) which is a proxy smart contract that locks up voters' MKR into the voting system. Voting is controlled through the creation of hot and cold wallets to ensure the safety of staked MKR.
 
-Attivare il voting contract è facile, e richiede semplicemente un click del mouse, fintanto che l'utente accetta di utilizzare l'hot-wallet e il cold-wallet assegnati automaticamente dal sistema. Se invece l'utente preferisce usare un altro cold-wallet o un altro hot-wallet, un ulteriore voting contract può essere attivato.
+Setting up the voting contract is a one-time action as long as the user wants to use the same designated cold and hot wallets. However, if the user wants to use another cold or hot wallet, the link can be broken, and a new voting proxy contract can be set up.
 
-## A cosa mi serve attivare il voting contract?
+Users also have the option of using only a hot wallet to vote. This simplifies the setup process but provides less security for the users' MKR.
 
-Il sistema di voto per i sondaggi \(governance poll\) è limitato nel tempo mentre il sistema di votazione esecutiva \(executive vote\) è illimitato nel tempo e si basa sul sistema di votazione continua, come spiegato in precedenza. Il voting contract permette ai possessori di MKR di votare in modo semplice sia per i sondaggi che per le votazioni esecutive avendo il vantaggio di controllare il proprio voto attraverso un hot-wallet con la garanzia che i propri token MKR possono essere rilasciati in sicurezza solamente verso il cold-wallet.
+## What does setting up a voting proxy do for me?
 
-## Che cosa è un proxy contract?
+The governance voting mechanism is a time-limited poll vote, while an executive vote is handled via Continuous Approval Voting. The voting proxy contract allows MKR holders to easily vote with their MKR for governance and Executive Proposals while gaining the benefit of controlling voting through a hot wallet and ensuring that funds can only be withdrawn into a cold wallet.
 
-Un proxy contract è uno smart contract Ethereum che permette di approvare varie transazioni allo stesso tempo, in modo tale che o tutte le transazioni vengono eseguite correttamente o nessuna viene eseguita. Il vantaggio nell'utilizzo di proxy contract sta nel fatto che è sufficiente autorizzare una singola transazione invece di dover autorizzare numerose transazioni.
+## What is a proxy contract?
 
-## Perché dovrei attivare un proxy contract
+A proxy contract is a smart contract in which you approve multiple transactions in a way where they all must succeed or fail. This means you only have to sign one transaction for multiple steps to be executed.
 
-Il voting contract \(che è un proxy contract\) garantisce la sicurezza del voto utilizzando un sistema di hot-wallet e cold-wallet. Inoltre permette la votazione, sia in sondaggi che in voti esecutivi, in modo semplice senza doversi preoccupare dei dettagli tecnici o di effettuare varie transazioni manuali.
+## Why do I need to set up a proxy contract?
 
-## Sto dando dei permessi a chi, per fare cosa, e perché?
+Proxies provide additional security benefits when voting with MKR from a cold wallet through a hot wallet. It also allows for participation in both Polling Voting and Executive Voting without having to worry about the underlying mechanics or performing numerous manual transactions.
 
-Quando attivi il voting contract stai accettando di bloccare i tuoi token MKR nel sistema di voto e di poterli gestire attraverso l'hot-wallet. Le operazioni effettuabili dal hot-wallet sono solo due: votare o sbloccare i token MKR inviandoli al cold-wallet.
+## What am I granting permissions for, to whom, and why?
 
-## Devo pagare dei costi di transazione \(Ethereum gas\) ogni volta che voto?
+When granting permissions, you are approving that you want to lock your MKR in the voting system and control your vote with a "hot wallet." The "hot wallet" is only allowed to vote or return MKR to the "cold wallet."
 
-Sì. Tutte le votazioni avvengono sulla blockchain e c'è quindi un costo associato ad ogni transazione e dunque un costo per l'attivazione del voting contract ed un costo per ogni singolo voto espresso.
+## Does it cost gas every time I vote?
 
-## Di quanto gas avrò bisogno? Verrà prelevato dall'hot-wallet o dal cold-wallet?
+Yes. As all voting occurs on-chain, there are gas costs associated with each transaction involved in setting up the voting contract, as well as casting your vote.
 
-L'attivazione del voting contract consiste di un totale di quattro transazioni e un costo di un milione \(1M\) gas, circa. Questo costo è diviso tra il tuo hot-wallet e il tuo cold-wallet, quindi dovrai assicurarti di avere una quantità sufficiente di ETH in entrambi i wallet. Puoi visitare il sito [https://ethgasstation.info/](https://ethgasstation.info/) per valutare il costo complessivo della transazione.
+## How much gas will I need, and where does it come from; the hot wallet or the cold wallet?
 
-## Quante transazioni devo autorizzare per attivare il voting contract?
+It takes four transactions with a total cost of approximately 1M gas to set up the voting contract. This is split between your hot and cold wallets, so you will need to ensure you have some ETH in both wallets. You can visit [https://ethgasstation.info/](https://ethgasstation.info/) to help estimate your gas price.
 
-L'attivazione del voting contract richiede quattro transazioni.
+## How many transactions do I have to sign?
 
-1. **Inizializzazione del collegamento \(Initiate link\)**: Il primo passo consiste nello specificare quale hot-wallet vuoi usare. Questa transazione è chiamata "Initiate link" e deve provenire dal tuo cold-wallet. La transazione ha lo scopo di dimostrare che tu sei effettivamente in possesso del cold-wallet e di specificare quale hot-wallet vuoi usare.
-1. **Autorizzare il collegamento \(Approve link\)**: Successivamente, dovrai dimostrare che controlli il tuo hot-wallet e creare un collegamento tra l'hot-wallet e il cold-wallet attraverso la transazione "Approve link". Questa transazione creerà inoltre il tuo voting contract personalizzato che utilizzerai per votare.
-1. **Autorizzare il trasferimento di token MKR \(Approve MKR transfer\)**: Una volta che i tuoi hot-wallet e cold-wallet sono stati collegati, dovrai autorizzare il trasferimento dei tuoi token MKR verso il voting contract.
-1. **Blocco dei token MKR \(Lock MKR\)**: L'ultimo passo consiste nel determinare il tuo "peso di voto" decidendo quanti token MKR trasferire verso il tuo voting contract. Questo step può essere ripetuto più volte aggiungendo ulteriori token MKR e quindi aumentando il tuo "peso di voto".
+It takes four separate transactions to set up the voting contract.
 
-Una volta completati questi passaggi potrai partecipare alla voto in sondaggi e in votazioni esecutive.
+1. **Initiate link**: The first step is to specify which wallet to use as your hot wallet. This transaction is called "Initiate link" and must come from your cold wallet. This transaction is meant to prove your control of the cold wallet, and specify which wallet to use as your hot wallet.
+1. **Approve link**:  Next, it is time for you to specify and prove control of your hot wallet and create the link between your wallets with the "Approve link" transaction. This action will also create the personalized voting contract that you will use to cast your votes.
+1. **Approve MKR transfer**:  Once the link between your cold and hot wallets has been created, you must approve your MKR to be transferred to the voting contract.
+1. **Lock MKR**: The last step transfers MKR to the voting system contract to specify your voting weight. This step can be repeated at any time to "top up" with additional MKR.
 
-## Il collegamento tra hot-wallet e cold-wallet a cosa serve esattamente?
+You can participate in both Polling and Executive Voting after completing these steps.
 
-Il collegamento tra hot-wallet e cold-wallet significa che i tuoi token MKR sono bloccati nel sistema di voto e non devono restare connessi a nessun'altra applicazione per esprimere il voto. Una volta che avrai bloccato i tuoi token MKR, non ci sarà nessuno bisogno di connetterti al tuo cold-wallet. Puoi votare semplicemente utilizzando il tuo hot-wallet. Oppure puoi rimandare i tuoi token MKR verso il tuo cold-wallet. I token MKR non possono essere inviati ad alcun altro wallet.
+## What exactly does the link between hot and cold wallets control?
 
-## Chi controlla i miei token MKR mentre sono bloccati nel voting contract?
+The link between the hot and cold wallets means that your MKR is locked into the Voting System contract and doesn't have to remain connected to any application to cast a vote. Once you have locked your MKR, there is no need to connect your cold wallet again. With your hot wallet, you can only vote, or send MKR back to your cold wallet. MKR cannot be withdrawn to any other address except the cold wallet.
 
-Tu mantieni il controllo completo sui tuoi token MKR i quali non possono essere prelevati dal voting contract da nessuno. Solo tu potrai prelevarli e potrai inviarli unicamente verso il tuo cold-wallet.
+## Who controls my MKR when it is locked?
 
-## Come faccio a sapere che i miei token MKR sono bloccati?
+You maintain full control over your MKR as it never leaves the Voting System contract. Only you can withdraw your MKR from the voting contract, and it can only be moved back to your cold wallet.
 
-Se connetti il tuo hot-wallet al portale [Governance Dashboard](https://vote.makerdao.com), potrai visualizzare la quantità di token MKR bloccati alla voce "In voting contract".
+## How do I know my MKR is locked up?
 
-## Come posso prelevare i miei token MKR bloccati?
+If you connect your hot wallet to the [Governance Dashboard](https://vote.makerdao.com), it will display your MKR total under the header "In voting contract."
 
-Per rimandare i tuoi token MKR bloccati verso il tuo cold-wallet, devi andare sul portale [Governance Dashboard](https://vote.makerdao.com) e connettere il tuo hot-wallet. Successivamente devi cliccare su "Voting Contract". In basso a destra dovrebbe apparire un link 'Withdraw from voting contract.' Cliccalo e seleziona quanti token MKR vuoi prelevare e, infine, autorizza la transazione. I tuoi token MKR bloccati possono essere inviati unicamente verso il tuo cold-wallet.
+## How do I retrieve my MKR?
 
-## Che effetto ha sui miei voti espressi in passato il prelevamento dei token MKR bloccati?
+To withdraw your locked MKR, you first need to go to the [Governance Dashboard](https://vote.makerdao.com) and connect your hot wallet, then click "Voting Contract." In the lower right-hand corner, you should see a link called "Withdraw from voting contract." Click the link and select how much you wish to withdraw and then confirm the transaction. Locked MKR can only be moved back to the cold wallet.
 
-Prelevare i tuoi token MKR che sono bloccati sull'ultima proposta che è stata approvata corrisponde a ritirare il tuo voto. Questo fa sì che un'altra proposta concorrente richieda meno token MKR per essere autorizzata in quanto la sua approvazione richiede semplicemente di ricevere più voti della proposta precedentemente votata. Ritirare i tuoi token MKR dal tuo voting contract ovviamente fa sì che, se tu volessi decidere di votare nuovamente in futuro, dovrai nuovamente inviare i tuoi token MKR verso il voting contract.
+## How does a withdrawal affect my previous votes?
 
-## Devo sbloccare immediatamente i miei token MKR dopo aver votato?
+Withdrawing your MKR takes your vote out of the system, and leaves your MKR unassigned. This makes a new proposal require less MKR to pass since it only needs to have more MKR in it than the previous proposal. Withdrawing your MKR from the voting contract also adds a step should you wish to vote again with your MKR in the future.
 
-No, gli utenti che partecipano attivamente all'amministrazione di MakerDAO dovrebbero lasciare i loro token MKR nel voting contract per partecipare al sistema di voto continuo.
+## Do I need to unlock immediately after voting?
 
-## Posso inviare i miei token MKR dal mio cold-wallet verso un altro wallet mentre sono bloccati? Cosa succede se lo faccio?
+No, users who are active in MakerDAO governance are encouraged to leave their MKR in the voting dashboard for use in Continuous Approval Voting.
 
-No, non puoi muovere i tuoi token MKR che sono bloccati nel voting system. I tuoi token MKR devo prima essere ritirati dal voting system verso il tuo cold-wallet. Solo a quel punto potrai liberamente inviarli ad un altro wallet.
+## Can I send my MKR from my cold wallet to another address while it is locked? What happens if I do that?
 
-## Cosa succede se, dopo aver collegato il mio cold-wallet ad un hot-wallet, voglio inviare ulteriori token MKR?
+No, you cannot move MKR that is locked in the voting system. The MKR must first be withdrawn from the voting system contract before your cold wallet can transfer it to any other address.
 
-Gli utenti hanno l'opzione di aggiungere ulteriori MKR al loro voting contract attraverso una singola transazione nella quale possono "ricaricare" \(top up\) il loro voting contract. Puoi trovare questa funzionalità cliccando su 'Voting Contract' nel portale [Governance Dashboard](https://vote.makerdao.com) e successivamente cliccando sul pulsante 'Top-up Voting Contract'.
+## What happens if I send more MKR to my cold wallet after I link it?
 
-## Posso annullare il collegamento tra il mio hot-wallet e il mio cold-wallet?
+Users have the option to add new MKR to their Voting Contract by a single transaction where they can top-up their voting contract. You can find this option by going to the [Governance Dashboard](https://vote.makerdao.com), clicking on "Voting Contract," then clicking the "Top-up Voting Contract" button.
 
-Sì, c'è una opzione per annullare il collegamento andando su [Governance Dashboard](https://vote.makerdao.com), cliccando su 'Voting Contract' e infine cliccando su 'Break Wallet Link.' In generale, comunque, non c'è alcuna ragione per annullare il collegamento a meno che tu non voglia selezionare un hot-wallet o un cold-wallet differente. Ritirare i tokens MKR dal tuo voting contract ti permette di liberarli completamente e di poterli gestire dal tuo cold-wallet, senza nessun bisogno di annullare il collegamento.
+## Can I break the link between my hot and cold wallet?
 
-## Posso combinare vari wallets contenenti vari token MKR per esprimere il mio voto?
+Yes. There is an option to break the wallet link by going to the [Governance Dashboard](https://vote.makerdao.com). Click on "Voting Contract," then click the "Break Wallet Link" button. Generally speaking, there is no reason to break the link unless you need to select a new hot or cold wallet. Withdrawing MKR from your voting contract enables you to freely use your MKR with your cold wallet without needing to break the link.
 
-No, al momento il voting contract permette di essere ricaricato da un solo cold-wallet.
+## Can I combine more than one address holding MKR to vote?
+
+No, currently a voting contract can only be funded by one address.
