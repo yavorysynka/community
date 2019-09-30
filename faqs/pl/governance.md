@@ -117,9 +117,9 @@ Ustanowienie kontraktu do głosowania wymaga czterech transakcji zużywających 
 Konieczne są cztery transakcje w celu ustanowienia kontraktu do głosowania.
 
 1. **Initiate link**: Pierwszym krokiem jest wskazanie, którego portfela chcemy używać jako gorącego portfela. Transakcja ta nazywana jest „Inicjacją połączenia” i musi wyjść z Twojego zimnego portfela. Transakcja to ma na celu udowodnienie kontroli nad zimnym portfelem oraz określenie, który portfel będzie używany jako gorący portfel.
-2. **Approve link**: Następnie czas na określenie oraz udowodnienie kontroli nad gorącym portfelem i utworzenie połączenia pomiędzy dwoma portfelami poprzez transakcję „Zatwierdź połączenie”. To działanie utworzy też spersonalizowany kontrakt do głosowania, który może być używany do oddawania głosów.
-3. **Approve MKR transfer**: Gdy połączenie pomiędzy zimnym i gorącym portfelem zostanie ustanowione, musisz zatwierdzić przesłanie tokenów MKR do kontraktu do głosowania.
-4. **Lock MKR**: Ostatnim krokiem jest transfer MKR do kontraktu systemu do głosowania w celu ustalenia wagi Twojego głosu. Ten krok może być powtarzany w dowolnym momencie w celu doładowania dodatkowymi MKR.
+1. **Approve link**: Następnie czas na określenie oraz udowodnienie kontroli nad gorącym portfelem i utworzenie połączenia pomiędzy dwoma portfelami poprzez transakcję „Zatwierdź połączenie”. To działanie utworzy też spersonalizowany kontrakt do głosowania, który może być używany do oddawania głosów.
+1. **Approve MKR transfer**: Gdy połączenie pomiędzy zimnym i gorącym portfelem zostanie ustanowione, musisz zatwierdzić przesłanie tokenów MKR do kontraktu do głosowania.
+1. **Lock MKR**: Ostatnim krokiem jest transfer MKR do kontraktu systemu do głosowania w celu ustalenia wagi Twojego głosu. Ten krok może być powtarzany w dowolnym momencie w celu doładowania dodatkowymi MKR.
 
 Po ukończeniu tych kroków możesz brać udział zarówno w Ankietach Zarządczych, jak i Głosowaniach Wykonawczych.
 
